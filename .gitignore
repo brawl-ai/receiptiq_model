@@ -2,3 +2,5 @@ dataset
 env
 models
 .env
+__pycache__/
+datasets
