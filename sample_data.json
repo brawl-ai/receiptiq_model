@@ -1,0 +1,226 @@
+{
+    "store_name": {
+        "value": "SANYU STATIONERY SHOP",
+        "bounding_box": [
+            90,
+            40,
+            1060,
+            80
+        ]
+    },
+    "address": {
+        "value": "NO. 31G&33G, JALAN SETIA INDAH X, U13/X, 40170 SETIA ALAM",
+        "bounding_box": [
+            90,
+            120,
+            1060,
+            140
+        ]
+    },
+    "mobile_whatsapp": {
+        "value": "+6012-918 7937",
+        "bounding_box": [
+            90,
+            260,
+            600,
+            28
+        ]
+    },
+    "tel": {
+        "value": "+603-3362 4137",
+        "bounding_box": [
+            90,
+            295,
+            400,
+            28
+        ]
+    },
+    "gst_id_no": {
+        "value": "001531760640",
+        "bounding_box": [
+            90,
+            330,
+            400,
+            28
+        ]
+    },
+    "owned_by": {
+        "value": "SANYU SUPPLY SDN BHD (1135772-K)",
+        "bounding_box": [
+            90,
+            360,
+            700,
+            28
+        ]
+    },
+    "invoice_type": {
+        "value": "TAX INVOICE",
+        "bounding_box": [
+            900,
+            320,
+            300,
+            36
+        ]
+    },
+    "sales_counter": {
+        "value": "CASH SALES COUNTER",
+        "bounding_box": [
+            90,
+            420,
+            800,
+            36
+        ]
+    },
+    "items": [
+        {
+            "item_name": {
+                "value": "JOURNAL BOOK 80PGS A4 70G CARD COVER (SJB-4013)",
+                "bounding_box": [
+                    260,
+                    500,
+                    800,
+                    60
+                ]
+            },
+            "quantity": {
+                "value": 1,
+                "bounding_box": [
+                    90,
+                    540,
+                    140,
+                    30
+                ]
+            },
+            "unit_price": {
+                "value": 3.9,
+                "bounding_box": [
+                    760,
+                    540,
+                    120,
+                    30
+                ]
+            },
+            "line_total": {
+                "value": 3.9,
+                "bounding_box": [
+                    900,
+                    540,
+                    120,
+                    30
+                ]
+            }
+        }
+    ],
+    "total_sales_inclusive_gst": {
+        "value": 3.9,
+        "bounding_box": [
+            90,
+            600,
+            800,
+            28
+        ]
+    },
+    "discount": {
+        "value": 0.0,
+        "bounding_box": [
+            760,
+            630,
+            200,
+            28
+        ]
+    },
+    "total": {
+        "value": 3.9,
+        "bounding_box": [
+            760,
+            660,
+            200,
+            28
+        ]
+    },
+    "round_adj": {
+        "value": 0.0,
+        "bounding_box": [
+            760,
+            690,
+            200,
+            28
+        ]
+    },
+    "final_total": {
+        "value": 3.9,
+        "bounding_box": [
+            760,
+            720,
+            200,
+            28
+        ]
+    },
+    "cash": {
+        "value": 10.0,
+        "bounding_box": [
+            760,
+            760,
+            200,
+            28
+        ]
+    },
+    "change": {
+        "value": 6.1,
+        "bounding_box": [
+            760,
+            795,
+            200,
+            28
+        ]
+    },
+    "gst_summary": [
+        {
+            "tax_rate": {
+                "value": "SR @ 6%",
+                "bounding_box": [
+                    90,
+                    840,
+                    200,
+                    28
+                ]
+            },
+            "amount": {
+                "value": 3.68,
+                "bounding_box": [
+                    500,
+                    860,
+                    120,
+                    28
+                ]
+            },
+            "tax": {
+                "value": 0.22,
+                "bounding_box": [
+                    650,
+                    860,
+                    120,
+                    28
+                ]
+            }
+        }
+    ],
+    "invoice_number": {
+        "value": "CS-SA-0121215",
+        "bounding_box": [
+            90,
+            930,
+            420,
+            28
+        ]
+    },
+    "date": {
+        "value": "31/10/2017",
+        "bounding_box": [
+            520,
+            930,
+            240,
+            28
+        ]
+    }
+}

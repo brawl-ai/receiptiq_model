@@ -1,0 +1,146 @@
+{
+  "store_name": {
+    "value": "Guardian Health And Beauty Sdn Bhd",
+    "bounding_box": [40,160,680,56],
+    "description": "Name of the store"
+  },
+  "address_line_1": {
+    "value": "Lot B-005-006, Basement Level 1",
+    "bounding_box": [40,220,680,40],
+    "description": "Store address line 1"
+  },
+  "address_line_2": {
+    "value": "The Starling Mall",
+    "bounding_box": [40,260,520,36],
+    "description": "Store address line 2"
+  },
+  "address_line_3": {
+    "value": "Jalan SS21/60, Damansara Utama",
+    "bounding_box": [40,296,600,36],
+    "description": "Store address line 3"
+  },
+  "phone": {
+    "value": "03-7662 5789",
+    "bounding_box": [40,336,360, thirty-six],
+    "description": "Store telephone number"
+  },
+  "company_registration": {
+    "value": "#1101083-T",
+    "bounding_box": [40,380,380,30],
+    "description": "Company registration number"
+  },
+  "gst_registration": {
+    "value": "#000899874816",
+    "bounding_box": [40,414,420,30],
+    "description": "GST registration number"
+  },
+  "items": [
+    {
+      "item_code": {
+        "value": "121066051",
+        "bounding_box": [40,760,220,34],
+        "description": "Item code or SKU"
+      },
+      "item_name": {
+        "value": "OPTICARE 500X3",
+        "bounding_box": [160,760,420,34],
+        "description": "Name of purchased item"
+      },
+      "quantity": {
+        "value": 1,
+        "bounding_box": [600,760,40,34],
+        "description": "Number of units purchased (estimated)"
+      },
+      "unit_price": {
+        "value": 13.78,
+        "bounding_box": [640,760,120,34],
+        "description": "Price per unit"
+      },
+      "line_total": {
+        "value": 13.78,
+        "bounding_box": [640,760,120,34],
+        "description": "Total price for this line item"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 13.78,
+    "bounding_box": [640,820,120,34],
+    "description": "Subtotal amount before payments"
+  },
+  "total_amount": {
+    "value": 13.78,
+    "bounding_box": [640,960,140,34],
+    "description": "Total amount (GST included)"
+  },
+  "cash": {
+    "value": 20.00,
+    "bounding_box": [640,1000,140,34],
+    "description": "Cash paid"
+  },
+  "rounding_adjustments": {
+    "value": 0.02,
+    "bounding_box": [640,1040,140,34],
+    "description": "Rounding adjustments applied"
+  },
+  "change_due": {
+    "value": 6.20,
+    "bounding_box": [640,1080,140,34],
+    "description": "Change due to customer"
+  },
+  "savings_for_today": {
+    "value": 3.49,
+    "bounding_box": [40,1260,420,34],
+    "description": "Savings for today"
+  },
+  "gst_rate": {
+    "value": 6.0,
+    "bounding_box": [120,1500,80,30],
+    "description": "GST rate percentage"
+  },
+  "gst_exclusive": {
+    "value": 13.00,
+    "bounding_box": [320,1500,120,30],
+    "description": "Amount excluding GST"
+  },
+  "gst_amount": {
+    "value": 0.78,
+    "bounding_box": [520,1500,120,30],
+    "description": "GST amount"
+  },
+  "promo_note": {
+    "value": "Promo Price items",
+    "bounding_box": [40,1540,420,30],
+    "description": "Indicates promo-priced items marker"
+  },
+  "store_number": {
+    "value": "8541",
+    "bounding_box": [120,2380,120,30],
+    "description": "Store number (St:)"
+  },
+  "counter_id": {
+    "value": "Ctr3",
+    "bounding_box": [260,2380,120,30],
+    "description": "Counter identifier"
+  },
+  "terminal_id": {
+    "value": "ID:3003",
+    "bounding_box": [380,2380,160,30],
+    "description": "Terminal or cashier ID"
+  },
+  "tax_invoice_number": {
+    "value": "11612",
+    "bounding_box": [560,2380,140,30],
+    "description": "Tax invoice number"
+  },
+  "time": {
+    "value": "20:56",
+    "bounding_box": [160,2520,120,36],
+    "description": "Transaction time"
+  },
+  "date": {
+    "value": "07/07/17",
+    "bounding_box": [320,2520,160,36],
+    "description": "Transaction date"
+  }
+}

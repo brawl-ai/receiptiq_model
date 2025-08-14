@@ -1,0 +1,54 @@
+{
+  "seller": {
+    "name": "string // the legal name of the store or seller",
+    "address": "string // postal address of the store",
+    "telephone": "string // contact telephone number of the store",
+    "vat_number": "string // VAT registration number of the store",
+    "pin": "string // tax identification PIN of the store",
+    "store_location": "string // physical location or branch name of the store",
+    "till_number": "string // the specific till where the transaction took place"
+  },
+  "receipt": {
+    "receipt_number": "string // unique receipt identifier",
+    "datetime": "string // date and time of the transaction in ISO 8601 format",
+    "items": [
+      {
+        "item_code": "string // internal or barcode product code",
+        "description": "string // name or description of the product",
+        "quantity": "number // quantity purchased",
+        "unit_price": "number // price per unit",
+        "total_amount": "number // total cost for this line item",
+        "tax_code": "string // applicable tax category for the item",
+        "discount_description": "string // reason or description of discount applied, if any",
+        "discount_amount": "number // discount value applied to this item"
+      }
+    ],
+    "total_lines": "number // total number of distinct line items",
+    "total_before_discount": "number // sum of item prices before any discount",
+    "total_discount_awarded": "number // total discount applied",
+    "subtotal": "number // amount before VAT",
+    "vat": "number // VAT amount",
+    "total": "number // the total amount of the purchase after VAT and discounts",
+    "tax_breakdown": [
+      {
+        "tax_code": "string // tax category code (e.g., A, B)",
+        "rate": "number // applicable tax rate percentage",
+        "vatable_amount": "number // portion of subtotal subject to this tax rate",
+        "vat_amount": "number // tax amount for this category"
+      }
+    ],
+    "payment_method": "string // method of payment (e.g., M-Pesa, cash, card)"
+  },
+  "served_by": "string // name of cashier or attendant who processed the sale",
+  "loyalty": {
+    "customer_name": "string // name of the loyalty program customer",
+    "initial_points": "number // points before the transaction",
+    "points_earned": "number // points gained from this transaction"
+  },
+  "control_unit_info": {
+    "date": "string // control unit date",
+    "time": "string // control unit time",
+    "cu_serial_number": "string // control unit serial number",
+    "cu_invoice_number": "string // control unit invoice number"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "store_name": "string//Name of the store",
+    "address": "string//Store address",
+    "mobile_whatsapp": "string//Mobile / WhatsApp number",
+    "tel": "string//Telephone number",
+    "gst_id_no": "string//GST identification number",
+    "owned_by": "string//Registered owner / company",
+    "invoice_type": "string//Type of invoice",
+    "sales_counter": "string//Counter type",
+    "items": [
+        {
+            "item_name": "string//Name and description of purchased item",
+            "quantity": "number//Number of units purchased",
+            "unit_price": "number//Price per unit",
+            "line_total": "number//Line total for this item"
+        }
+    ],
+    "total_sales_inclusive_gst": "number//Total sales amount inclusive of GST @6%",
+    "discount": "number//Discount applied",
+    "total": "number//Subtotal total amount",
+    "round_adj": "number//Rounding adjustment",
+    "final_total": "number//Final total after adjustments",
+    "cash": "number//Cash received",
+    "change": "number//Change given to customer",
+    "gst_summary": [
+        {
+            "tax_rate": "string//Tax class / rate",
+            "amount": "number//Taxable amount for this rate",
+            "tax": "number//Tax amount for this rate"
+        }
+    ],
+    "invoice_number": "string//Invoice number",
+    "date": "string//Invoice date"
+}
